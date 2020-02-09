@@ -1,0 +1,409 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700&display=swap');
+
+$body-black: #000;
+$body-white: #fff;
+$brand-color:#f34423;
+
+
+@mixin section-ul {
+    list-style-type: circle;
+}
+
+@mixin section-li {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.section-header {
+    margin-bottom: 80px;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 200;
+        color: $body-white;
+        text-align: center;
+    }
+}
+
+@mixin section-padding {
+    padding: 6rem 0;
+}
+
+.bordered-button {
+    border: 1px solid $brand-color;
+    color: $brand-color;
+    background-color: $body-white;
+}
+
+body {
+    color: $body-color;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -- Navbar Start -- */
+
+.navbar {
+    background-color: $body-black;
+    border-bottom: 1px solid $body-white;
+    color: $body-white;
+    padding: 1rem 1rem;
+
+    .navbar-brand {
+        img {
+            width: 115px;
+        }
+    }
+
+    button {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $body-white;
+
+    &:hover {
+        color: #f34423;
+    }
+}
+
+// .navbar-light .navbar-nav .nav-link:hover,
+// .navbar-light .navbar-nav .nav-link:focus {
+//     color: #f34423;
+// }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+button {
+    background-color: $brand-color;
+    border: none;
+    color: $body-white;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    border: 1px solid #f34423;
+
+    &:hover {
+        color: #f34423;
+        background-color: transparent;
+    }
+}
+
+button:focus {
+    outline: none;
+}
+
+/* -- Navbar End -- */
+
+/* -- Banner Start -- */
+.banner {
+    background-color: #000;
+    color: #fff;
+    padding: 5rem 0 5rem;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 100;
+        padding: 2rem 0;
+    }
+
+    button {
+        padding: 0.8rem 3rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .get-button-block {
+        margin-top: 35px;
+
+        p {
+            padding: 0;
+        }
+    }
+
+    .banner-button {
+        display: flex;
+        margin-left: -14px;
+
+        img {
+            width: 200px
+        }
+    }
+
+    .banner-image {
+        border: 1px solid #fff;
+        padding: 0.5rem;
+        border-radius: 20px;
+
+        img {
+            border-radius: 15px;
+        }
+
+    }
+}
+
+
+/* -- Banner End -- */
+
+
+
+.powerful-technology {
+    padding: 6rem 0;
+    text-align: center;
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    img {
+
+        width: 80px;
+        margin-bottom: 12px;
+    }
+
+    .title-name {
+        font-size: 14px;
+    }
+}
+
+
+/* --  -- */
+
+.advance-section {
+    background-color: #131313;
+    padding: 5rem 0;
+    text-align: center;
+    color: #fff;
+
+    .advance-card {
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        h4 {
+            font-weight: 200;
+            font-size: 2rem;
+            margin-bottom: 60px;
+            margin-top: 20px;
+        }
+
+        ul {
+            @include section-ul;
+
+            li {
+                @include section-li;
+            }
+        }
+
+    }
+}
+
+/* -- Alternate Section Start -- */
+.alternate-section {
+    background-color: $body-black;
+    @include section-padding;
+    color: $body-white;
+
+    .alternate-img-section {
+        border: 1px solid #fff;
+        border-radius: 15px;
+        padding: 5px;
+        width: 80%;
+        margin-top: 20px;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            height: 305px;
+            object-fit: cover;
+        }
+    }
+
+    .pd-t-b {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .alternate-text-section {
+        h4 {
+            font-size: 2rem;
+            font-weight: 200;
+            margin-bottom: 45px;
+            text-transform: capitalize;
+
+        }
+    }
+
+
+
+    ul {
+        @include section-ul;
+        padding-inline-start: 18px;
+
+        li {
+            @include section-li;
+        }
+    }
+}
+
+/* -- Alternate Section End -- */
+
+/* -- Exclusive Section Start -- */
+
+.exclusive-section {
+    padding: 5rem 0;
+
+    .section-header {
+        h2 {
+            color: #000;
+        }
+    }
+
+    img {
+        width: 100px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 300;
+        padding: 2rem 0;
+    }
+
+    button {
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 0.8rem 2.5rem;
+    }
+}
+
+/* -- Exclusive Section Start -- */
+
+.cuengine-section {
+    background-color: #191919;
+    color: $brand-color;
+    padding: 5rem 0;
+
+    .section-header {
+        img {
+            width: 300px;
+        }
+    }
+
+    p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+        margin-bottom: 32px;
+    }
+
+    button {
+        margin-top: 50px;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 0.8rem 2rem;
+    }
+
+
+}
+
+
+/* -- Video Section Start -- */
+.video-section {
+    background-color: #131313;
+    padding: 5rem 0;
+
+
+}
+
+.spacing-left {
+    margin-bottom: 50px;
+    padding-left: 25px;
+}
+
+.spacing-right {
+    margin-bottom: 50px;
+    padding-right: 25px;
+}
+
+/* -- Video Section End -- */
+
+
+.download-app-section {
+    background-color: #191919;
+    padding: 6rem 0;
+
+    .app-screenshot {
+        img {
+            width: 85%;
+        }
+    }
+
+
+    h4 {
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin-bottom: 25px;
+        margin-top: 32px;
+    }
+
+    .logo-block-section {
+        display: flex;
+        justify-content: left;
+        margin-left: -7px;
+
+        img {
+            width: 180px;
+        }
+    }
+
+    .ml-15 {
+        margin-left: 15px;
+    }
+
+
+
+
+
+}
+
+
+/* -- Footer Section Start -- */
+
+footer {
+    background: $body-black;
+    padding: 2rem 0 1rem;
+
+    h4 {
+        color: #fff;
+        font-size: 1rem;
+
+        span {
+            color: #696565;
+        }
+    }
+
+    div {
+        img {
+            width: 190px;
+        }
+    }
+
+}
+
+/* -- Footer Section End -- */
