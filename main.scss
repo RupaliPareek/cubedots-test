@@ -15,6 +15,10 @@ $brand-color:#f34423;
     font-weight: 300;
     margin-bottom: 20px;
     font-weight: 200;
+
+    @include media-breakpoint-up(xs) {
+        font-size: 0.8rem;
+    }
 }
 
 .section-header {
@@ -25,11 +29,19 @@ $brand-color:#f34423;
         font-weight: 200;
         color: $body-white;
         text-align: center;
+
+        @include media-breakpoint-up(xs) {
+            font-size: 2rem;
+        }
     }
 }
 
 @mixin section-padding {
     padding: 6rem 0;
+
+    @include media-breakpoint-up(xs) {
+        padding: 4rem 0;
+    }
 }
 
 .bordered-button {
@@ -108,15 +120,27 @@ button:focus {
     color: #fff;
     padding: 5rem 0 5rem;
 
+    @include media-breakpoint-up(xs) {
+        padding: 3rem 0 5rem;
+    }
+
     h2 {
         font-size: 3rem;
         font-weight: 300;
+
+        @include media-breakpoint-up(xs) {
+            font-size: 2rem;
+        }
     }
 
     p {
         font-size: 1rem;
         font-weight: 100;
         padding: 2rem 0;
+
+        @include media-breakpoint-up(xs) {
+            font-size: 0.8rem;
+        }
     }
 
     button {
@@ -129,6 +153,11 @@ button:focus {
     .get-button-block {
         margin-top: 35px;
 
+        @include media-breakpoint-up(xs) {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
         p {
             padding: 0;
         }
@@ -139,7 +168,11 @@ button:focus {
         margin-left: -14px;
 
         img {
-            width: 200px
+            width: 200px;
+
+            @include media-breakpoint-up(xs) {
+                width: 150px;
+            }
         }
     }
 
@@ -164,8 +197,17 @@ button:focus {
     padding: 6rem 0;
     text-align: center;
 
+    @include media-breakpoint-up(xs) {
+        padding: 4rem 0;
+    }
+
     p {
         font-size: 1.3rem;
+
+        @include media-breakpoint-up(xs) {
+            font-size: 1rem;
+        }
+
     }
 
     img {
@@ -192,6 +234,11 @@ button:focus {
         img {
             width: 80px;
             height: 80px;
+
+            @include media-breakpoint-up(xs) {
+                width: 40px;
+                height: 40px;
+            }
         }
 
         h4 {
@@ -199,6 +246,12 @@ button:focus {
             font-size: 2rem;
             margin-bottom: 60px;
             margin-top: 20px;
+
+            @include media-breakpoint-up(xs) {
+                font-size: 1.5rem;
+                margin-bottom: 25px;
+                margin-top: 20px;
+            }
         }
 
         ul {
@@ -206,6 +259,11 @@ button:focus {
 
             li {
                 @include section-li;
+
+                @include media-breakpoint-up(xs) {
+                    font-size: 14px;
+                    text-align: left;
+                }
             }
         }
 
@@ -225,6 +283,12 @@ button:focus {
         width: 80%;
         margin-top: 20px;
 
+        @include media-breakpoint-up(xs) {
+            width: 100%;
+            margin-top: 0px;
+        }
+
+
         img {
             width: 100%;
             border-radius: 10px;
@@ -236,6 +300,11 @@ button:focus {
     .pd-t-b {
         padding-top: 3.5rem;
         padding-bottom: 3.5rem;
+
+        @include media-breakpoint-up(xs) {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
     }
 
     .alternate-text-section {
@@ -245,6 +314,10 @@ button:focus {
             margin-bottom: 45px;
             text-transform: capitalize;
 
+            @include media-breakpoint-up(xs) {
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
         }
     }
 
@@ -281,6 +354,10 @@ button:focus {
         font-size: 18px;
         font-weight: 300;
         padding: 2rem 0;
+
+        @include media-breakpoint-up(xs) {
+            font-size: 0.8rem;
+        }
     }
 
     button {
@@ -309,6 +386,10 @@ button:focus {
         font-size: 18px;
         font-weight: 200;
         margin-bottom: 32px;
+
+        @include media-breakpoint-up(xs) {
+            font-size: 0.8rem;
+        }
     }
 
     button {
@@ -333,11 +414,19 @@ button:focus {
 .spacing-left {
     margin-bottom: 50px;
     padding-left: 25px;
+
+    @include media-breakpoint-up(xs) {
+        padding-left: 0px;
+    }
 }
 
 .spacing-right {
     margin-bottom: 50px;
     padding-right: 25px;
+
+    @include media-breakpoint-up(xs) {
+        padding-right: 0px;
+    }
 }
 
 /* -- Video Section End -- */
@@ -346,6 +435,10 @@ button:focus {
 .download-app-section {
     background-color: #191919;
     padding: 6rem 0;
+
+    @include media-breakpoint-up(xs) {
+        padding: 4rem 0;
+    }
 
     .app-screenshot {
         img {
@@ -360,6 +453,10 @@ button:focus {
         font-weight: 300;
         margin-bottom: 25px;
         margin-top: 32px;
+
+        @include media-breakpoint-up(xs) {
+            font-size: 1.5rem;
+        }
     }
 
     .logo-block-section {
@@ -369,16 +466,17 @@ button:focus {
 
         img {
             width: 180px;
+
+            @include media-breakpoint-up(xs) {
+                width: 140px;
+            }
+
         }
     }
 
     .ml-15 {
         margin-left: 15px;
     }
-
-
-
-
 
 }
 

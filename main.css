@@ -9884,6 +9884,7 @@ h3 {
   font-weight: 200;
   color: #fff;
   text-align: center;
+  font-size: 2rem;
 }
 
 .bordered-button {
@@ -9948,15 +9949,18 @@ button:focus {
   background-color: #000;
   color: #fff;
   padding: 5rem 0 5rem;
+  padding: 3rem 0 5rem;
 }
 .banner h2 {
   font-size: 3rem;
   font-weight: 300;
+  font-size: 2rem;
 }
 .banner p {
   font-size: 1rem;
   font-weight: 100;
   padding: 2rem 0;
+  font-size: 0.8rem;
 }
 .banner button {
   padding: 0.8rem 3rem;
@@ -9966,6 +9970,8 @@ button:focus {
 }
 .banner .get-button-block {
   margin-top: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .banner .get-button-block p {
   padding: 0;
@@ -9976,6 +9982,7 @@ button:focus {
 }
 .banner .banner-button img {
   width: 200px;
+  width: 150px;
 }
 .banner .banner-image {
   border: 1px solid #fff;
@@ -9990,9 +9997,11 @@ button:focus {
 .powerful-technology {
   padding: 6rem 0;
   text-align: center;
+  padding: 4rem 0;
 }
 .powerful-technology p {
   font-size: 1.3rem;
+  font-size: 1rem;
 }
 .powerful-technology img {
   width: 80px;
@@ -10012,11 +10021,16 @@ button:focus {
 .advance-section .advance-card img {
   width: 80px;
   height: 80px;
+  width: 40px;
+  height: 40px;
 }
 .advance-section .advance-card h4 {
   font-weight: 200;
   font-size: 2rem;
   margin-bottom: 60px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
   margin-top: 20px;
 }
 .advance-section .advance-card ul {
@@ -10027,12 +10041,16 @@ button:focus {
   font-weight: 300;
   margin-bottom: 20px;
   font-weight: 200;
+  font-size: 0.8rem;
+  font-size: 14px;
+  text-align: left;
 }
 
 /* -- Alternate Section Start -- */
 .alternate-section {
   background-color: #000;
   padding: 6rem 0;
+  padding: 4rem 0;
   color: #fff;
 }
 .alternate-section .alternate-img-section {
@@ -10041,6 +10059,8 @@ button:focus {
   padding: 5px;
   width: 80%;
   margin-top: 20px;
+  width: 100%;
+  margin-top: 0px;
 }
 .alternate-section .alternate-img-section img {
   width: 100%;
@@ -10051,12 +10071,16 @@ button:focus {
 .alternate-section .pd-t-b {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .alternate-section .alternate-text-section h4 {
   font-size: 2rem;
   font-weight: 200;
   margin-bottom: 45px;
   text-transform: capitalize;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 .alternate-section ul {
   list-style-type: circle;
@@ -10067,6 +10091,7 @@ button:focus {
   font-weight: 300;
   margin-bottom: 20px;
   font-weight: 200;
+  font-size: 0.8rem;
 }
 
 /* -- Alternate Section End -- */
@@ -10084,6 +10109,7 @@ button:focus {
   font-size: 18px;
   font-weight: 300;
   padding: 2rem 0;
+  font-size: 0.8rem;
 }
 .exclusive-section button {
   border-radius: 30px;
@@ -10106,6 +10132,7 @@ button:focus {
   font-size: 18px;
   font-weight: 200;
   margin-bottom: 32px;
+  font-size: 0.8rem;
 }
 .cuengine-section button {
   margin-top: 50px;
@@ -10123,17 +10150,20 @@ button:focus {
 .spacing-left {
   margin-bottom: 50px;
   padding-left: 25px;
+  padding-left: 0px;
 }
 
 .spacing-right {
   margin-bottom: 50px;
   padding-right: 25px;
+  padding-right: 0px;
 }
 
 /* -- Video Section End -- */
 .download-app-section {
   background-color: #191919;
   padding: 6rem 0;
+  padding: 4rem 0;
 }
 .download-app-section .app-screenshot img {
   width: 85%;
@@ -10144,6 +10174,7 @@ button:focus {
   font-weight: 300;
   margin-bottom: 25px;
   margin-top: 32px;
+  font-size: 1.5rem;
 }
 .download-app-section .logo-block-section {
   display: flex;
