@@ -16,7 +16,8 @@ $brand-color:#f34423;
     margin-bottom: 20px;
     font-weight: 200;
 
-    @include media-breakpoint-up(xs) {
+
+    @media (max-width: 767.98px) {
         font-size: 0.8rem;
     }
 }
@@ -30,7 +31,7 @@ $brand-color:#f34423;
         color: $body-white;
         text-align: center;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             font-size: 2rem;
         }
     }
@@ -39,7 +40,7 @@ $brand-color:#f34423;
 @mixin section-padding {
     padding: 6rem 0;
 
-    @include media-breakpoint-up(xs) {
+    @media (max-width: 767.98px) {
         padding: 4rem 0;
     }
 }
@@ -120,7 +121,7 @@ button:focus {
     color: #fff;
     padding: 5rem 0 5rem;
 
-    @include media-breakpoint-up(xs) {
+    @media (max-width: 767.98px) {
         padding: 3rem 0 5rem;
     }
 
@@ -128,7 +129,7 @@ button:focus {
         font-size: 3rem;
         font-weight: 300;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             font-size: 2rem;
         }
     }
@@ -138,8 +139,9 @@ button:focus {
         font-weight: 100;
         padding: 2rem 0;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             font-size: 0.8rem;
+            padding: 0.5rem 0;
         }
     }
 
@@ -148,12 +150,16 @@ button:focus {
         text-transform: uppercase;
         font-weight: 600;
         font-size: 12px;
+
+        @media (max-width: 767.98px) {
+            padding: 0.5rem 2rem;
+        }
     }
 
     .get-button-block {
         margin-top: 35px;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             margin-top: 25px;
             margin-bottom: 25px;
         }
@@ -170,7 +176,7 @@ button:focus {
         img {
             width: 200px;
 
-            @include media-breakpoint-up(xs) {
+            @media (max-width: 767.98px) {
                 width: 150px;
             }
         }
@@ -197,14 +203,14 @@ button:focus {
     padding: 6rem 0;
     text-align: center;
 
-    @include media-breakpoint-up(xs) {
+    @media (max-width: 767.98px) {
         padding: 4rem 0;
     }
 
     p {
         font-size: 1.3rem;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             font-size: 1rem;
         }
 
@@ -235,7 +241,7 @@ button:focus {
             width: 80px;
             height: 80px;
 
-            @include media-breakpoint-up(xs) {
+            @media (max-width: 767.98px) {
                 width: 40px;
                 height: 40px;
             }
@@ -247,7 +253,7 @@ button:focus {
             margin-bottom: 60px;
             margin-top: 20px;
 
-            @include media-breakpoint-up(xs) {
+            @media (max-width: 767.98px) {
                 font-size: 1.5rem;
                 margin-bottom: 25px;
                 margin-top: 20px;
@@ -260,7 +266,7 @@ button:focus {
             li {
                 @include section-li;
 
-                @include media-breakpoint-up(xs) {
+                @media (max-width: 767.98px) {
                     font-size: 14px;
                     text-align: left;
                 }
@@ -283,7 +289,7 @@ button:focus {
         width: 80%;
         margin-top: 20px;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             width: 100%;
             margin-top: 0px;
         }
@@ -301,7 +307,7 @@ button:focus {
         padding-top: 3.5rem;
         padding-bottom: 3.5rem;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
         }
@@ -314,7 +320,7 @@ button:focus {
             margin-bottom: 45px;
             text-transform: capitalize;
 
-            @include media-breakpoint-up(xs) {
+            @media (max-width: 767.98px) {
                 font-size: 1.5rem;
                 margin-bottom: 20px;
             }
@@ -355,7 +361,7 @@ button:focus {
         font-weight: 300;
         padding: 2rem 0;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             font-size: 0.8rem;
         }
     }
@@ -387,7 +393,7 @@ button:focus {
         font-weight: 200;
         margin-bottom: 32px;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
             font-size: 0.8rem;
         }
     }
@@ -397,6 +403,12 @@ button:focus {
         font-size: 12px;
         font-weight: 600;
         padding: 0.8rem 2rem;
+
+        @media (max-width: 767.98px) {
+            margin-top: 15px;
+        }
+
+
     }
 
 
@@ -408,6 +420,9 @@ button:focus {
     background-color: #131313;
     padding: 5rem 0;
 
+    @media (max-width: 767.98px) {
+        padding: 2rem 0;
+    }
 
 }
 
@@ -415,7 +430,7 @@ button:focus {
     margin-bottom: 50px;
     padding-left: 25px;
 
-    @include media-breakpoint-up(xs) {
+    @media (max-width: 767.98px) {
         padding-left: 0px;
     }
 }
@@ -424,9 +439,11 @@ button:focus {
     margin-bottom: 50px;
     padding-right: 25px;
 
-    @include media-breakpoint-up(xs) {
+    @media (max-width: 767.98px) {
         padding-right: 0px;
     }
+
+    margin-top: 15px;
 }
 
 /* -- Video Section End -- */
@@ -436,11 +453,15 @@ button:focus {
     background-color: #191919;
     padding: 6rem 0;
 
-    @include media-breakpoint-up(xs) {
+    @media (max-width: 767.98px) {
         padding: 4rem 0;
     }
 
     .app-screenshot {
+        @media (max-width: 767.98px) {
+            text-align: center;
+        }
+
         img {
             width: 85%;
         }
@@ -454,8 +475,11 @@ button:focus {
         margin-bottom: 25px;
         margin-top: 32px;
 
-        @include media-breakpoint-up(xs) {
+        @media (max-width: 767.98px) {
+            margin-bottom: 15px;
+            margin-top: 25px;
             font-size: 1.5rem;
+            text-align: center;
         }
     }
 
@@ -464,11 +488,16 @@ button:focus {
         justify-content: left;
         margin-left: -7px;
 
+        @media (max-width: 767.98px) {
+            justify-content: center;
+            margin-left: 0px;
+        }
+
         img {
             width: 180px;
 
-            @include media-breakpoint-up(xs) {
-                width: 140px;
+            @media (max-width: 767.98px) {
+                width: 105px;
             }
 
         }

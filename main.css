@@ -9884,7 +9884,11 @@ h3 {
   font-weight: 200;
   color: #fff;
   text-align: center;
-  font-size: 2rem;
+}
+@media (max-width: 767.98px) {
+  .section-header h2 {
+    font-size: 2rem;
+  }
 }
 
 .bordered-button {
@@ -9949,18 +9953,31 @@ button:focus {
   background-color: #000;
   color: #fff;
   padding: 5rem 0 5rem;
-  padding: 3rem 0 5rem;
+}
+@media (max-width: 767.98px) {
+  .banner {
+    padding: 3rem 0 5rem;
+  }
 }
 .banner h2 {
   font-size: 3rem;
   font-weight: 300;
-  font-size: 2rem;
+}
+@media (max-width: 767.98px) {
+  .banner h2 {
+    font-size: 2rem;
+  }
 }
 .banner p {
   font-size: 1rem;
   font-weight: 100;
   padding: 2rem 0;
-  font-size: 0.8rem;
+}
+@media (max-width: 767.98px) {
+  .banner p {
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+  }
 }
 .banner button {
   padding: 0.8rem 3rem;
@@ -9968,10 +9985,19 @@ button:focus {
   font-weight: 600;
   font-size: 12px;
 }
+@media (max-width: 767.98px) {
+  .banner button {
+    padding: 0.5rem 2rem;
+  }
+}
 .banner .get-button-block {
   margin-top: 35px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+}
+@media (max-width: 767.98px) {
+  .banner .get-button-block {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 }
 .banner .get-button-block p {
   padding: 0;
@@ -9982,7 +10008,11 @@ button:focus {
 }
 .banner .banner-button img {
   width: 200px;
-  width: 150px;
+}
+@media (max-width: 767.98px) {
+  .banner .banner-button img {
+    width: 150px;
+  }
 }
 .banner .banner-image {
   border: 1px solid #fff;
@@ -9997,11 +10027,19 @@ button:focus {
 .powerful-technology {
   padding: 6rem 0;
   text-align: center;
-  padding: 4rem 0;
+}
+@media (max-width: 767.98px) {
+  .powerful-technology {
+    padding: 4rem 0;
+  }
 }
 .powerful-technology p {
   font-size: 1.3rem;
-  font-size: 1rem;
+}
+@media (max-width: 767.98px) {
+  .powerful-technology p {
+    font-size: 1rem;
+  }
 }
 .powerful-technology img {
   width: 80px;
@@ -10021,17 +10059,25 @@ button:focus {
 .advance-section .advance-card img {
   width: 80px;
   height: 80px;
-  width: 40px;
-  height: 40px;
+}
+@media (max-width: 767.98px) {
+  .advance-section .advance-card img {
+    width: 40px;
+    height: 40px;
+  }
 }
 .advance-section .advance-card h4 {
   font-weight: 200;
   font-size: 2rem;
   margin-bottom: 60px;
   margin-top: 20px;
-  font-size: 1.5rem;
-  margin-bottom: 25px;
-  margin-top: 20px;
+}
+@media (max-width: 767.98px) {
+  .advance-section .advance-card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
 }
 .advance-section .advance-card ul {
   list-style-type: circle;
@@ -10041,17 +10087,29 @@ button:focus {
   font-weight: 300;
   margin-bottom: 20px;
   font-weight: 200;
-  font-size: 0.8rem;
-  font-size: 14px;
-  text-align: left;
+}
+@media (max-width: 767.98px) {
+  .advance-section .advance-card ul li {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .advance-section .advance-card ul li {
+    font-size: 14px;
+    text-align: left;
+  }
 }
 
 /* -- Alternate Section Start -- */
 .alternate-section {
   background-color: #000;
   padding: 6rem 0;
-  padding: 4rem 0;
   color: #fff;
+}
+@media (max-width: 767.98px) {
+  .alternate-section {
+    padding: 4rem 0;
+  }
 }
 .alternate-section .alternate-img-section {
   border: 1px solid #fff;
@@ -10059,8 +10117,12 @@ button:focus {
   padding: 5px;
   width: 80%;
   margin-top: 20px;
-  width: 100%;
-  margin-top: 0px;
+}
+@media (max-width: 767.98px) {
+  .alternate-section .alternate-img-section {
+    width: 100%;
+    margin-top: 0px;
+  }
 }
 .alternate-section .alternate-img-section img {
   width: 100%;
@@ -10071,16 +10133,24 @@ button:focus {
 .alternate-section .pd-t-b {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+}
+@media (max-width: 767.98px) {
+  .alternate-section .pd-t-b {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
 .alternate-section .alternate-text-section h4 {
   font-size: 2rem;
   font-weight: 200;
   margin-bottom: 45px;
   text-transform: capitalize;
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+}
+@media (max-width: 767.98px) {
+  .alternate-section .alternate-text-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
 }
 .alternate-section ul {
   list-style-type: circle;
@@ -10091,7 +10161,11 @@ button:focus {
   font-weight: 300;
   margin-bottom: 20px;
   font-weight: 200;
-  font-size: 0.8rem;
+}
+@media (max-width: 767.98px) {
+  .alternate-section ul li {
+    font-size: 0.8rem;
+  }
 }
 
 /* -- Alternate Section End -- */
@@ -10109,7 +10183,11 @@ button:focus {
   font-size: 18px;
   font-weight: 300;
   padding: 2rem 0;
-  font-size: 0.8rem;
+}
+@media (max-width: 767.98px) {
+  .exclusive-section p {
+    font-size: 0.8rem;
+  }
 }
 .exclusive-section button {
   border-radius: 30px;
@@ -10132,7 +10210,11 @@ button:focus {
   font-size: 18px;
   font-weight: 200;
   margin-bottom: 32px;
-  font-size: 0.8rem;
+}
+@media (max-width: 767.98px) {
+  .cuengine-section p {
+    font-size: 0.8rem;
+  }
 }
 .cuengine-section button {
   margin-top: 50px;
@@ -10140,30 +10222,58 @@ button:focus {
   font-weight: 600;
   padding: 0.8rem 2rem;
 }
+@media (max-width: 767.98px) {
+  .cuengine-section button {
+    margin-top: 15px;
+  }
+}
 
 /* -- Video Section Start -- */
 .video-section {
   background-color: #131313;
   padding: 5rem 0;
 }
+@media (max-width: 767.98px) {
+  .video-section {
+    padding: 2rem 0;
+  }
+}
 
 .spacing-left {
   margin-bottom: 50px;
   padding-left: 25px;
-  padding-left: 0px;
+}
+@media (max-width: 767.98px) {
+  .spacing-left {
+    padding-left: 0px;
+  }
 }
 
 .spacing-right {
   margin-bottom: 50px;
   padding-right: 25px;
-  padding-right: 0px;
+  margin-top: 15px;
+}
+@media (max-width: 767.98px) {
+  .spacing-right {
+    padding-right: 0px;
+  }
 }
 
 /* -- Video Section End -- */
 .download-app-section {
   background-color: #191919;
   padding: 6rem 0;
-  padding: 4rem 0;
+}
+@media (max-width: 767.98px) {
+  .download-app-section {
+    padding: 4rem 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .download-app-section .app-screenshot {
+    text-align: center;
+  }
 }
 .download-app-section .app-screenshot img {
   width: 85%;
@@ -10174,15 +10284,33 @@ button:focus {
   font-weight: 300;
   margin-bottom: 25px;
   margin-top: 32px;
-  font-size: 1.5rem;
+}
+@media (max-width: 767.98px) {
+  .download-app-section h4 {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }
 .download-app-section .logo-block-section {
   display: flex;
   justify-content: left;
   margin-left: -7px;
 }
+@media (max-width: 767.98px) {
+  .download-app-section .logo-block-section {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
 .download-app-section .logo-block-section img {
   width: 180px;
+}
+@media (max-width: 767.98px) {
+  .download-app-section .logo-block-section img {
+    width: 105px;
+  }
 }
 .download-app-section .ml-15 {
   margin-left: 15px;
