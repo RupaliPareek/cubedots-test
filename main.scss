@@ -22,6 +22,13 @@ $brand-color:#f34423;
     }
 }
 
+@mixin transition-hover {
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
 .section-header {
     margin-bottom: 80px;
 
@@ -54,6 +61,14 @@ $brand-color:#f34423;
 body {
     color: $body-color;
     font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+a {
+    @include transition-hover;
 }
 
 /* -- Navbar Start -- */
@@ -102,6 +117,7 @@ button {
     padding: 0.5rem 2rem;
     text-transform: uppercase;
     border: 1px solid #f34423;
+    @include transition-hover;
 
     &:hover {
         color: #f34423;
@@ -122,7 +138,7 @@ button:focus {
     padding: 5rem 0 5rem;
 
     @media (max-width: 767.98px) {
-        padding: 3rem 0 5rem;
+        padding: 3rem 0 2rem;
     }
 
     h2 {
@@ -136,7 +152,7 @@ button:focus {
 
     p {
         font-size: 1rem;
-        font-weight: 100;
+        font-weight: 200;
         padding: 2rem 0;
 
         @media (max-width: 767.98px) {
@@ -191,6 +207,21 @@ button:focus {
             border-radius: 15px;
         }
 
+    }
+
+    .banner-logo-icon {
+        @media (max-width: 767.98px) {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 150px;
+
+            @media (max-width: 767.98px) {
+                width: 100px;
+            }
+        }
     }
 }
 
@@ -346,6 +377,10 @@ button:focus {
 .exclusive-section {
     padding: 5rem 0;
 
+    @media (max-width: 767.98px) {
+        padding: 2rem 0;
+    }
+
     .section-header {
         h2 {
             color: #000;
@@ -354,6 +389,10 @@ button:focus {
 
     img {
         width: 100px;
+
+        @media (max-width: 767.98px) {
+            width: 45px;
+        }
     }
 
     p {
@@ -371,6 +410,10 @@ button:focus {
         font-size: 12px;
         font-weight: 600;
         padding: 0.8rem 2.5rem;
+
+        @media (max-width: 767.98px) {
+            padding: 0.4rem 1.5rem;
+        }
     }
 }
 
@@ -442,8 +485,6 @@ button:focus {
     @media (max-width: 767.98px) {
         padding-right: 0px;
     }
-
-    margin-top: 15px;
 }
 
 /* -- Video Section End -- */
@@ -514,20 +555,43 @@ button:focus {
 
 footer {
     background: $body-black;
-    padding: 2rem 0 1rem;
+    padding: 3rem 0 1rem;
+
+    @media (max-width: 767.98px) {
+        padding: 1rem 0 1rem;
+    }
 
     h4 {
         color: #fff;
         font-size: 1rem;
+
+        @media (max-width: 767.98px) {
+            font-size: 0.8rem;
+        }
 
         span {
             color: #696565;
         }
     }
 
-    div {
+    .footer-logo-block {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: -6px;
+
+        @media (max-width: 767.98px) {
+            left: unset;
+            right: 15px;
+        }
+
         img {
-            width: 190px;
+            width: 150px;
+
+            @media (max-width: 767.98px) {
+                width: 90px;
+            }
         }
     }
 

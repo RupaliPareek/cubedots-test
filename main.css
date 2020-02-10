@@ -9900,6 +9900,17 @@ h3 {
 body {
   color: #212529;
   font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
 }
 
 /* -- Navbar Start -- */
@@ -9937,6 +9948,10 @@ button {
   padding: 0.5rem 2rem;
   text-transform: uppercase;
   border: 1px solid #f34423;
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
 }
 button:hover {
   color: #f34423;
@@ -9956,7 +9971,7 @@ button:focus {
 }
 @media (max-width: 767.98px) {
   .banner {
-    padding: 3rem 0 5rem;
+    padding: 3rem 0 2rem;
   }
 }
 .banner h2 {
@@ -9970,7 +9985,7 @@ button:focus {
 }
 .banner p {
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 200;
   padding: 2rem 0;
 }
 @media (max-width: 767.98px) {
@@ -10021,6 +10036,20 @@ button:focus {
 }
 .banner .banner-image img {
   border-radius: 15px;
+}
+@media (max-width: 767.98px) {
+  .banner .banner-logo-icon {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+.banner .banner-logo-icon img {
+  width: 150px;
+}
+@media (max-width: 767.98px) {
+  .banner .banner-logo-icon img {
+    width: 100px;
+  }
 }
 
 /* -- Banner End -- */
@@ -10173,11 +10202,21 @@ button:focus {
 .exclusive-section {
   padding: 5rem 0;
 }
+@media (max-width: 767.98px) {
+  .exclusive-section {
+    padding: 2rem 0;
+  }
+}
 .exclusive-section .section-header h2 {
   color: #000;
 }
 .exclusive-section img {
   width: 100px;
+}
+@media (max-width: 767.98px) {
+  .exclusive-section img {
+    width: 45px;
+  }
 }
 .exclusive-section p {
   font-size: 18px;
@@ -10194,6 +10233,11 @@ button:focus {
   font-size: 12px;
   font-weight: 600;
   padding: 0.8rem 2.5rem;
+}
+@media (max-width: 767.98px) {
+  .exclusive-section button {
+    padding: 0.4rem 1.5rem;
+  }
 }
 
 /* -- Exclusive Section Start -- */
@@ -10252,7 +10296,6 @@ button:focus {
 .spacing-right {
   margin-bottom: 50px;
   padding-right: 25px;
-  margin-top: 15px;
 }
 @media (max-width: 767.98px) {
   .spacing-right {
@@ -10319,17 +10362,45 @@ button:focus {
 /* -- Footer Section Start -- */
 footer {
   background: #000;
-  padding: 2rem 0 1rem;
+  padding: 3rem 0 1rem;
+}
+@media (max-width: 767.98px) {
+  footer {
+    padding: 1rem 0 1rem;
+  }
 }
 footer h4 {
   color: #fff;
   font-size: 1rem;
 }
+@media (max-width: 767.98px) {
+  footer h4 {
+    font-size: 0.8rem;
+  }
+}
 footer h4 span {
   color: #696565;
 }
-footer div img {
-  width: 190px;
+footer .footer-logo-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -6px;
+}
+@media (max-width: 767.98px) {
+  footer .footer-logo-block {
+    left: unset;
+    right: 15px;
+  }
+}
+footer .footer-logo-block img {
+  width: 150px;
+}
+@media (max-width: 767.98px) {
+  footer .footer-logo-block img {
+    width: 90px;
+  }
 }
 
 /* -- Footer Section End -- */
